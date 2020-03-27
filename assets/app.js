@@ -24,8 +24,8 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     document.getElementById("dice-1").style.display = 'block';
     document.getElementById("dice-2").style.display = 'block';
 
-    document.getElementById("dice-1").src = "/assets/dice-" + dice1 + ".png";
-    document.getElementById("dice-1").src = "/assets/dice-" + dice2 + ".png";
+    document.getElementById("dice-1").src = "assets/dice-" + dice1 + ".png";
+    document.getElementById("dice-1").src = "assets/dice-" + dice2 + ".png";
 
 
     //3. Update the round score IF the rolled number is NOT 1
